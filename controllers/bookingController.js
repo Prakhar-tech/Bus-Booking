@@ -25,7 +25,7 @@ exports.book = async (req, res) => {
       // return res.status(201).send(matrix);
     }
     for (j = 0; j < 7; j++) {
-      +available++;
+      available++;
 
       if (booked === seat) {
         break;
